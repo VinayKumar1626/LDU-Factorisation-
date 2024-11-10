@@ -1,12 +1,5 @@
 let n  =3;
 let A = [];
-let PEM = [];
-let U = [];
-let L = [];
-let U2=[];
-let D = [];
-
-
 
 function formMatrix(lst) {
     let Str = "";
