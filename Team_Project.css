@@ -38,3 +38,33 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+button:hover {
+    background-color: #005fa3;
+}
+#matrixInput,
+#Uid,
+#A,
+#L,
+#D,
+#U {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fafafa;
+    overflow-x: auto;
+}
+
+h3 {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+}
+
+div#A, div#Uid, div#L, div#D, div#U {
+    font-family: monospace;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
